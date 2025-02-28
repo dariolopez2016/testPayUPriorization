@@ -11,7 +11,7 @@
 El servicio toma datos de redes y los ordena según un criterio seleccionado, devolviendo un arreglo de índices prioritarios.
 ## Instalación
 1. Clona el repositorio desde GitHub:
-   git clone https://github.com/tu-usuario/network-data-service.git
+   git clone https://github.com/dariolopez2016/network-data-service.git
 
 # Sistema de Gestión de Datos de Red
 
@@ -24,14 +24,14 @@ API RESTful para gestionar datos generales del sistema.
 
 - **Endpoint principal**: `GET /api/data`
 - **Swagger UI**: `http://localhost:8081/swagger-ui.html`
-- **Repositorio**: `https://github.com/tu-usuario/data-service.git`
+- **Repositorio**: `https://github.com/dariolopez2016/data-service.git`
 
 ### 2. Network Service (`network-service`)
 API RESTful para obtener información específica de la red.
 
 - **Endpoint principal**: `GET /api/networks/data`
 - **Swagger UI**: `http://localhost:8080/swagger-ui.html`
-- **Repositorio**: `https://github.com/tu-usuario/network-service.git`
+- **Repositorio**: `https://github.com/dariolopez2016/network-service.git`
 
 ### Cómo Funciona
 
