@@ -1,10 +1,37 @@
 # Priorization Service API
+## Autor
+- **Nombre**: Dario Lopez
+- **Correo**: dario.lopez.sistemas@gmail.com
+- **Fecha**: 28 de febrero de 2025
 
 ¡Bienvenido al `Prioritization_Service`! Este proyecto ofrece una API REST para priorizar redes basada en tiempos de respuesta o costos, usando una arquitectura hexagonal.
 
 ## Descripción General
 
 El servicio toma datos de redes y los ordena según un criterio seleccionado, devolviendo un arreglo de índices prioritarios.
+## Instalación
+1. Clona el repositorio desde GitHub:
+   git clone https://github.com/tu-usuario/network-data-service.git
+
+# Sistema de Gestión de Datos de Red
+
+Este sistema está compuesto por **dos proyectos** que trabajan juntos: `data-service` y `network-service`. Ambos deben estar ejecutándose simultáneamente para el correcto funcionamiento de la aplicación.
+
+## Proyectos
+
+### 1. Data Service (`data-service`)
+API RESTful para gestionar datos generales del sistema.
+
+- **Endpoint principal**: `GET /api/data`
+- **Swagger UI**: `http://localhost:8081/swagger-ui.html`
+- **Repositorio**: `https://github.com/tu-usuario/data-service.git`
+
+### 2. Network Service (`network-service`)
+API RESTful para obtener información específica de la red.
+
+- **Endpoint principal**: `GET /api/networks/data`
+- **Swagger UI**: `http://localhost:8080/swagger-ui.html`
+- **Repositorio**: `https://github.com/tu-usuario/network-service.git`
 
 ### Cómo Funciona
 
